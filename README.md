@@ -1,12 +1,12 @@
 # Batch Connect - Avogadro
 
-A Batch Connect app designed for OSC OnDemand that launches Avogadro in a cluster node.
+A Batch Connect app designed for HPC Now! OnDemand that launches Avogadro in a node of the cluster.
 
 ## Prerequisites
 
 This Batch Connect app requires the following software be installed on the
 **compute nodes** that the batch job is intended to run on (**NOT** the
-OnDemand node):
+OnDemand Server node):
 
 - [Avogadro]
 - [Xfce Desktop] 4+
