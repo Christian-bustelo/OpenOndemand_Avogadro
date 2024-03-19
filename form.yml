@@ -10,8 +10,7 @@ attributes:
     label: "Number of tasks"
     min: 1
     step: 1
-    help: |
-      Texto de ayuda para la seccion de number of task
+    help: "Number of task"
   bc_num_hours:
     value: 1
     min: 1
