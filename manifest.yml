@@ -5,5 +5,5 @@ icon: fa://bar-chart
 subcategory: GUIs
 role: batch_connect
 description: |
-  This app will launch a [Avogadro] GUI on the [Cluster]. You
+  This app will launch a Avogadro GUI on the Cluster. You
   will be able to interact with the Avogadro GUI through a VNC session.

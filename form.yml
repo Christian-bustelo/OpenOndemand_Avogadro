@@ -16,19 +16,8 @@ attributes:
     value: 1
     min: 1
     step: 1
-    help: "Texto de ayuda para la seccion del numero de horas"
-  memtask:
-    widget: "text_field"
-    value: "default"
-    label: "Memory per job"
-    help: |
-      - **default** - Use default, 4 GB per task.
-      - **512M** - Use 512 MB.
-      - **128G** - Use 128 GB, this is the maximum.
-  
+    help: "Number of hours"
 form:
   - bc_num_slots
   - bc_num_hours
-  - memtask
-  - bc_email_on_started
 
