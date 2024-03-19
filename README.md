@@ -32,6 +32,6 @@ For VNC server support:
 ## Install
 
 Use git to clone this app and checkout the desired branch/version you want to
-use:
+use in the directory of applications in you Open OnDemand installation.
 
 # OpenOndemand_Avogadro
