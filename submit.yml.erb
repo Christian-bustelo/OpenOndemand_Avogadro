@@ -1,0 +1,12 @@
+---
+batch_connect:
+  template: vnc
+script:
+  native:
+    - "-n"
+    - "<%= bc_num_slots %>"
+    <%- if memtask != "default" -%>
+    - "--mem"
+    - "<%= memtask %>"
+    <%- end -%>
+

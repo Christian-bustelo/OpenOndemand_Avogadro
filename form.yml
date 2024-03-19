@@ -1,0 +1,34 @@
+---
+title: "Avogadro2"
+cluster: "my_cluster"
+
+description: |
+  This app will launch a Avogadro GUI on one node. You will be
+  able to interact with Avogadro console through a VNC session.
+attributes:
+  bc_num_slots:
+    label: "Number of tasks"
+    min: 1
+    step: 1
+    help: |
+      Texto de ayuda para la seccion de number of task
+  bc_num_hours:
+    value: 1
+    min: 1
+    step: 1
+    help: "Texto de ayuda para la seccion del numero de horas"
+  memtask:
+    widget: "text_field"
+    value: "default"
+    label: "Memory per job"
+    help: |
+      - **default** - Use default, 4 GB per task.
+      - **512M** - Use 512 MB.
+      - **128G** - Use 128 GB, this is the maximum.
+  
+form:
+  - bc_num_slots
+  - bc_num_hours
+  - memtask
+  - bc_email_on_started
+
