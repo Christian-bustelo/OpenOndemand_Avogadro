@@ -8,7 +8,7 @@ This Batch Connect app requires the following software be installed on the
 **compute nodes** that the batch job is intended to run on (**NOT** the
 OnDemand node):
 
-- [Avogadro] 5.1+
+- [Avogadro]
 - [Xfce Desktop] 4+
 
 For VNC server support:
